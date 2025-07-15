@@ -39,7 +39,7 @@ async def sync(m: HVMatrix, t: str) -> str:
     return f"S-{t}-{r}"
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "5268762773"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7423915921"))
 
 async def deterministic_privilege_validator(obj: Union[Message, CallbackQuery]) -> bool:
     if isinstance(obj, CallbackQuery):
